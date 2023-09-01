@@ -28,6 +28,6 @@ type Brushable interface {
 	MouseToCanvasXY(ev *desktop.MouseEvent) (*int, *int)
 }
 
-func (state *State) setFilePath(path string) {
+func (state *State) SetFilePath(path string) {
 	state.FilePath = path
 }
