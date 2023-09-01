@@ -1,0 +1,2 @@
+# go mod tidy <------ Install uninstalled dependencies
+# go run -v ./pixart  <-------- Run the App
